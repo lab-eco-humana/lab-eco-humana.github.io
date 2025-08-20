@@ -1,0 +1,101 @@
+---
+---
+@import "slate";
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+/* Color Scheme Variables */
+:root {
+  --background-color: #F2F2F2;
+  --primary-color: #038C8C;
+  --secondary-color: #54BF83;
+  --accent-color-1: #F24405;
+  --accent-color-2: #F27649;
+  --text-color: #333;
+  --header-text-color: #FFFFFF;
+}
+
+/* Base Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* Theme Overrides */
+
+/* Header */
+#header_wrap {
+  background: var(--primary-color);
+}
+
+#project_tagline {
+  color: var(--header-text-color);
+  text-align: center;
+}
+
+/* Main Content */
+#main_content_wrap {
+  background: var(--background-color);
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 3px solid var(--accent-color-1);
+  color: #666; /* Keeping original text color for readability */
+}
+
+/* Code Blocks */
+pre, code {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: var(--text-color);
+}
+
+/* Tables */
+th {
+  background: var(--primary-color);
+  color: var(--header-text-color);
+}
+
+/* Horizontal Rules */
+hr {
+  background: var(--accent-color-2);
+  height: 2px;
+}
+
+/* Logo */
+#logo {
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+/* Buttons */
+.btn {
+    background-color: var(--primary-color);
+    color: var(--header-text-color);
+    border: 1px solid var(--primary-color);
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--header-text-color);
+    border: 1px solid var(--secondary-color);
+}

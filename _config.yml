@@ -1,5 +1,6 @@
 # Site settings
 title: Laboratório de Ecologia Humana
+logo: /assets/images/header.png
 email: lab.ecohumana.unisanta@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   populações humanas | ecossistemas | tecnologias
@@ -10,12 +11,13 @@ url: "https://lab-eco-humana.github.io" # the base hostname & protocol for your 
 #github_username:  jekyll
 
 # Build settings
-theme: minima
+remote_theme: pages-themes/slate
+# theme: minima
 # remote_theme: pages-themes/tactile@v0.2.0
 plugins:
-# - jekyll-remote-theme # add this line to the plugins list if you already have one
-# plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Excerpt separator
 # The default is ""
