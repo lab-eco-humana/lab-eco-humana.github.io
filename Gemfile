@@ -15,7 +15,7 @@ gem "jekyll", "~> 4.4.1"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag"
-  gem "jekyll-remote-theme"
+  gem "jekyll-remote-theme", "~> 0.4.3"
 #  gem "github-pages"
 #  gem "jekyll-sass-converter"
 #  gem "liquid"
