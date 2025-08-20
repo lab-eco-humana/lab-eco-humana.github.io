@@ -44,8 +44,9 @@ a:hover {
   background: var(--primary-color);
 }
 
-#project_title, #project_tagline {
+#project_tagline {
   color: var(--header-text-color);
+  text-align: center;
 }
 
 /* Main Content */
@@ -80,9 +81,10 @@ hr {
 
 /* Logo */
 #logo {
-  max-width: 150px;
+  max-width: 100%;
   display: block;
   margin: 20px auto;
+  border-radius: 15px;
 }
 
 /* Buttons */
