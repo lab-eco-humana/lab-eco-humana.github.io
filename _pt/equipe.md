@@ -17,7 +17,7 @@ permalink: /equipe/
 
 - Carlos Venicio Cantareli \- [http://lattes.cnpq.br/0166184556067887](http://lattes.cnpq.br/0166184556067887)   
 - Mariana Clauzet \- [http://lattes.cnpq.br/3795122699393224](http://lattes.cnpq.br/3795122699393224)  
-- Felipe Schmidt Fonseca
+- Felipe Schmidt Fonseca - [https://is.efeefe.me](https://is.efeefe.me)
 
 **Estudantes**  
 
