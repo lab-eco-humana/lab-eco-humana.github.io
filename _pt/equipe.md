@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Equipe
+lang: pt
+ref: equipe
+permalink: /equipe/
 ---
 **Coordenadora e Líder de Pesquisa**  
 

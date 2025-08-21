@@ -10,6 +10,44 @@ url: "https://lab-eco-humana.github.io" # the base hostname & protocol for your 
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
+# i18n settings
+lang: pt
+languages: ["pt", "en"]
+
+flags:
+  pt: "https://flagcdn.com/w40/br.png"
+  en: "https://flagcdn.com/w40/gb.png"
+
+t:
+  pt:
+    description: "populações humanas | ecossistemas | tecnologias"
+    footer:
+      brand: "LabEcoHumana 2012- |"
+      rights: "Alguns direitos reservados"
+    nav:
+      home: "Início"
+      equipe: "Equipe"
+      projetos: "Projetos"
+      producoes: "Produções"
+  en:
+    description: "human populations | ecosystems | technologies"
+    footer:
+      brand: "LabEcoHumana 2012- |"
+      rights: "Some rights reserved"
+    nav:
+      home: "Home"
+      equipe: "Team"
+      projetos: "Projects"
+      producoes: "Publications"
+
+collections:
+  pt:
+    output: true
+    permalink: /:path/
+  en:
+    output: true
+    permalink: /en/:path/
+
 # Build settings
 remote_theme: pages-themes/slate
 # theme: minima

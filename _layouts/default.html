@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'pt' }}">
 
   <head>
     <meta charset='utf-8'>
@@ -7,8 +7,35 @@
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-{% seo %}
+    {% seo %}
+
     {% include head-custom.html %}
+
+    {% for lang in site.languages %}
+      {% assign collection = site[lang] %}
+      {% assign translated_page = collection | where: "ref", page.ref | first %}
+      {% if translated_page %}
+        <link rel="alternate" hreflang="{{ lang }}" href="{{ translated_page.url | relative_url }}" />
+      {% endif %}
+    {% endfor %}
+    <style>
+      .lang-switcher {
+        list-style: none;
+        margin-top: 20px;
+        padding: 0;
+        text-align: center;
+      }
+      .lang-switcher li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+      .lang-switcher img {
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        width: 40px;
+        height: auto;
+      }
+    </style>
   </head>
 
   <body>
@@ -19,7 +46,7 @@
           <a href="{{ site.baseurl }}/">
             <img src="{{ site.logo | relative_url }}" alt="Logo" id="logo" />
           </a>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+          <h2 id="project_tagline">{{ site.t[page.lang].description }}</h2>
         </header>
     </div>
 
@@ -33,7 +60,7 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p>LabEcoHumana 2012- | Alguns direitos reservados <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.pt-br">CC-BY-NC 4.0</a>
+        <p>{{ site.t[page.lang].footer.brand }} {{ site.t[page.lang].footer.rights }} <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.pt-br">CC-BY-NC 4.0</a>
         </p>
         <p>
            Rua Doutor Cesário Mota, 8. Bloco C-23.<br />
@@ -43,6 +70,7 @@
         <p>
           <a href="https://linktr.ee/labecohumana">linktr.ee/labecohumana</a>
         </p>
+        {% include lang_switcher.html %}
       </footer>
     </div>
   </body>

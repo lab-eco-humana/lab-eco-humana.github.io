@@ -1,5 +1,8 @@
 ---
 layout: home
+lang: pt
+ref: home
+permalink: /
 ---
 
 ## Sobre
@@ -12,8 +15,8 @@ Também participaram pesquisadores de grande relevância, como [**Fabio Giordano
 
 **Saiba mais:**
 
-- [Equipe](equipe)
+- [Equipe]({{ "/equipe/" | relative_url }})
 
-- [Projetos](projetos)
+- [Projetos]({{ "/projetos/" | relative_url }})
 
-- [Produções](producoes)
+- [Produções]({{ "/producoes/" | relative_url }})
