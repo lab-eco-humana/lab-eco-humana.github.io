@@ -1,0 +1,16 @@
+<ul class="lang-switcher">
+  {% for lang in site.languages %}
+    {% if lang == page.lang %}
+      {% continue %}
+    {% endif %}
+
+    {% assign collection = site[lang] %}
+    {% assign translated_page = collection | where: "ref", page.ref | first %}
+
+    {% if translated_page %}
+      <li>
+        <a href="{{ translated_page.url | relative_url }}" class="{{ lang }}">{{ lang }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Projetos
+lang: pt
+ref: projetos
+permalink: /projetos/
 ---
 
 
