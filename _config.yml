@@ -14,6 +14,10 @@ url: "https://lab-eco-humana.github.io" # the base hostname & protocol for your 
 lang: pt
 languages: ["pt", "en"]
 
+flags:
+  pt: "https://flagcdn.com/w40/br.png"
+  en: "https://flagcdn.com/w40/gb.png"
+
 t:
   pt:
     description: "populações humanas | ecossistemas | tecnologias"

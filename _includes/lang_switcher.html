@@ -6,10 +6,13 @@
 
     {% assign collection = site[lang] %}
     {% assign translated_page = collection | where: "ref", page.ref | first %}
+    {% assign flag_url = site.flags[lang] %}
 
-    {% if translated_page %}
+    {% if translated_page and flag_url %}
       <li>
-        <a href="{{ translated_page.url | relative_url }}" class="{{ lang }}">{{ lang }}</a>
+        <a href="{{ translated_page.url | relative_url }}" class="{{ lang }}">
+          <img src="{{ flag_url }}" alt="{{ lang }} flag" />
+        </a>
       </li>
     {% endif %}
   {% endfor %}
