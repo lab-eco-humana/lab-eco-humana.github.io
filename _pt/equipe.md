@@ -5,6 +5,9 @@ lang: pt
 ref: equipe
 permalink: /equipe/
 ---
+
+# Equipe
+
 **Coordenadora e Líder de Pesquisa**  
 
 - Milena Ramires \- [http://lattes.cnpq.br/0979037701910902](http://lattes.cnpq.br/0979037701910902)
@@ -23,3 +26,4 @@ permalink: /equipe/
 
 - Ian Costa \- [http://lattes.cnpq.br/9701753965733142](http://lattes.cnpq.br/9701753965733142)  
 - Ricardo Guimarães \- [http://lattes.cnpq.br/3849375002807332](http://lattes.cnpq.br/3849375002807332)
+- Maria Luiza de Lima Guedes - [http://lattes.cnpq.br/0951987064774069](http://lattes.cnpq.br/0951987064774069)

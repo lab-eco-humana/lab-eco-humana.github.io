@@ -9,6 +9,8 @@ permalink: /projetos/
 
 # Projetos
 
+O laboratório possui projetos de extensão e pesquisa, com abordagens interdisciplinares e colaborativas:
+
 **Ictiofauna da EEJI: Subsídios para Gestão Integrada das Unidades de Conservação do Mosaico**
 
 ![Ictiofauna](/assets/images/projetos_ictiofauna.jpg)

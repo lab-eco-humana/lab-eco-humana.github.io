@@ -22,7 +22,7 @@ t:
   pt:
     description: "populações humanas | ecossistemas | tecnologias"
     footer:
-      brand: "LabEcoHumana 2012- |"
+      brand: "LabEcohumana 2012- |"
       rights: "Alguns direitos reservados"
     nav:
       home: "Início"
@@ -32,7 +32,7 @@ t:
   en:
     description: "human populations | ecosystems | technologies"
     footer:
-      brand: "LabEcoHumana 2012- |"
+      brand: "LabEcohumana 2012- |"
       rights: "Some rights reserved"
     nav:
       home: "Home"
