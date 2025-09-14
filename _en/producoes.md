@@ -3,7 +3,7 @@ layout: page
 title: Publications
 lang: en
 ref: producoes
-permalink: /en/publications/
+permalink: /en/producoes/
 ---
 
-Coming soon...
+# Publications

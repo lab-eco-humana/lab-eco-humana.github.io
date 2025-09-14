@@ -1,6 +1,6 @@
 # Site settings
 title: Laboratório de Ecologia Humana
-logo: /assets/images/selo.png
+logo: /assets/images/header.png
 email: lab.ecohumana.unisanta@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   populações humanas | ecossistemas | tecnologias
@@ -66,3 +66,7 @@ excerpt_separator: ""
 
 # Footer content
 footer_content: "CC-BY {{ site.time | date: '%Y' }}. <a href='mailto:{{ site.email }}'>{{ site.email }}</a>"
+
+# Markdown settings
+kramdown:
+  parse_block_html: true
