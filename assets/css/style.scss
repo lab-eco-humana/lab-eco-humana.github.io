@@ -39,7 +39,7 @@ a:hover {
 
 /* Theme Overrides */
 .inner {
-  max-width: 1040px;
+  max-width: 920px;
   margin: 0 auto;
 }
 
@@ -56,14 +56,14 @@ a:hover {
 /* Main Content */
 #main_content_wrap {
   background: var(--background-color);
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;
   padding-top: 30px;
 }
 
 #footer_wrap {
   background: #000;
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -79,8 +79,9 @@ a:hover {
 
 /* Home Page Image */
 #main_content img:first-of-type {
-  width: 100%;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 20px;
 }
 
