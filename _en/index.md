@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Lab Ecohumana
 lang: en
 ref: home
 permalink: /en/
