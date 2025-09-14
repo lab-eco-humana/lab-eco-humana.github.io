@@ -66,3 +66,7 @@ excerpt_separator: ""
 
 # Footer content
 footer_content: "CC-BY {{ site.time | date: '%Y' }}. <a href='mailto:{{ site.email }}'>{{ site.email }}</a>"
+
+# Markdown settings
+kramdown:
+  parse_block_html: true
