@@ -38,6 +38,10 @@ a:hover {
 }
 
 /* Theme Overrides */
+.inner {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 /* Header */
 #header_wrap {
@@ -52,14 +56,14 @@ a:hover {
 /* Main Content */
 #main_content_wrap {
   background: var(--background-color);
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-top: 30px;
 }
 
 #footer_wrap {
   background: #000;
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px 0;
 }

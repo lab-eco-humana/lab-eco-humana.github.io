@@ -44,7 +44,8 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a href="{{ site.baseurl }}/">
+          {% assign home_page = site[page.lang] | where: "ref", "home" | first %}
+          <a href="{{ home_page.url | relative_url }}">
             <img src="{{ site.logo | relative_url }}" alt="Logo" id="logo" />
           </a>
           <h2 id="project_tagline">{{ site.t[page.lang].description }}</h2>
