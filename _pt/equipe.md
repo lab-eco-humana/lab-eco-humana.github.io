@@ -25,5 +25,6 @@ permalink: /equipe/
 **Estudantes**  
 
 - Ian Costa \- [http://lattes.cnpq.br/9701753965733142](http://lattes.cnpq.br/9701753965733142)  
-- Ricardo Guimarães \- [http://lattes.cnpq.br/3849375002807332](http://lattes.cnpq.br/3849375002807332)
+- Leticia Vieira Silva - [http://lattes.cnpq.br/5252512030785667](http://lattes.cnpq.br/5252512030785667)
 - Maria Luiza de Lima Guedes - [http://lattes.cnpq.br/0951987064774069](http://lattes.cnpq.br/0951987064774069)
+- Ricardo Guimarães \- [http://lattes.cnpq.br/3849375002807332](http://lattes.cnpq.br/3849375002807332)

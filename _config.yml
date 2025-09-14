@@ -18,6 +18,8 @@ flags:
   pt: "https://flagcdn.com/w40/br.png"
   en: "https://flagcdn.com/w40/gb.png"
 
+favicon: /assets/images/favicon.ico
+
 t:
   pt:
     description: "populações humanas | ecossistemas | tecnologias"

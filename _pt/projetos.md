@@ -23,10 +23,6 @@ A crescente complexidade dos desafios socioambientais exige uma formação cient
 
 ### Ictiofauna da EEJI: Subsídios para Gestão Integrada das Unidades de Conservação do Mosaico
 
-![Ictiofauna](/assets/images/projetos_ictiofauna.jpg)
-
-> Imagem: Carlos Venicio Cantareli
-
 A Estação Ecológica Juréia Itatins (EEJI) faz parte de uma área de extrema importância ecológica e socioambiental, que abriga uma parcela significativa da Mata Atlântica com grande biodiversidade e endemismo e imersa em um Mosaico de Unidades de Conservação (UCs) do Estado de São Paulo. Esse projeto busca avaliar a estrutura da comunidade ictiofaunística da EEJI e estimar a estrutura genômica populacional do robalo-peva _Centropomus parallelus_, um dos mais importantes recursos pesqueiros e socioeconômico regional.
 
 - **Período:** 2023 \- atual.  
