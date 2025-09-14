@@ -58,10 +58,26 @@ a:hover {
 }
 
 #footer_wrap {
-  background: var(--background-color);
+  background: #000;
   max-width: 1024px;
   margin: 0 auto;
-  padding-bottom: 30px;
+  padding: 20px 0;
+}
+
+#footer_wrap p {
+  color: #fff;
+}
+
+#footer_wrap a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Home Page Image */
+.full-width-image {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
 }
 
 /* Blockquotes */
