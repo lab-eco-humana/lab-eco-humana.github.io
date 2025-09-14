@@ -5,7 +5,7 @@ ref: home
 permalink: /en/
 ---
 
-![Image: Carlos Venicio Cantareli](/assets/images/lancha.png){: .full-width-image }
+![Image: Carlos Venicio Cantareli](/assets/images/lancha.png)
 
 > Image: Carlos Venicio Cantareli
 
