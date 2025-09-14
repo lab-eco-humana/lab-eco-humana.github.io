@@ -20,7 +20,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  background-color: var(--background-color);
+  background-color: var(--primary-color);
   color: var(--text-color);
 }
 
@@ -52,6 +52,16 @@ a:hover {
 /* Main Content */
 #main_content_wrap {
   background: var(--background-color);
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+#footer_wrap {
+  background: var(--background-color);
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 30px;
 }
 
 /* Blockquotes */
@@ -98,4 +108,31 @@ hr {
     background-color: var(--secondary-color);
     color: var(--header-text-color);
     border: 1px solid var(--secondary-color);
+}
+
+/* Project Page Styles */
+.project-section {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+/* Responsive Header */
+@media screen and (min-width: 768px) {
+  #header_wrap .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #logo {
+    margin: 20px 0;
+    max-width: 150px;
+  }
+
+  #project_tagline {
+    text-align: left;
+    margin-left: 20px;
+  }
 }

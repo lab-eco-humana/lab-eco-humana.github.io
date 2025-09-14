@@ -10,6 +10,8 @@ permalink: /projetos/
 
 O laboratório possui projetos de extensão e pesquisa, com abordagens interdisciplinares e colaborativas:
 
+<div class="project-section">
+
 ## Pesquisa
 
 ### BioEduca: desenvolvimento de materiais pedagógicos e estratégias de ensino aprendizagem para a Biologia
@@ -29,6 +31,9 @@ A Estação Ecológica Juréia Itatins (EEJI) faz parte de uma área de extrema 
 - **Participantes:** Milena Ramires \- Coordenadora / Mariana Clauzet / Miguel Petrere Jr/ Matheus Marcos Rotundo / Amanda Aparecida Carminatto/ Claudio Oliveira/ Bruno Lopes da Silva Ferrette.  
 - **Financiamento:** Fundação de Amparo à Pesquisa do Estado de São Paulo - FAPESP.
 
+</div>
+<div class="project-section">
+
 ## Extensão
 
 ### Ciência cidadã, Apropriação crítica de Tecnologias e Ações Socioambientais em Populações Costeiras
@@ -47,3 +52,5 @@ O Projeto surgiu da iniciativa de docentes dos cursos de Pós-graduação da Uni
 - **Período:** 2024 - atual
 - **Participantes:** Milena Ramires - Coordenadora / Matheus Marcos Rotundo / Vinicius Roveri / Bruna Cabral Carneiro Batista - Integrante / Jorge Luis dos Santos - Integrante / Thiago Dal Negro / Cyro Purificação Neto/ Leticia Vieira Silva.
 - **Financiamento:** Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - CAPES.
+
+</div>

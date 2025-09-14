@@ -3,8 +3,11 @@ layout: page
 title: Team
 lang: en
 ref: equipe
-permalink: /en/team/
+permalink: /en/equipe/
 ---
+
+# Team
+
 **Coordinator and Research Leader**
 
 - Milena Ramires \- [http://lattes.cnpq.br/0979037701910902](http://lattes.cnpq.br/0979037701910902)
@@ -22,4 +25,6 @@ permalink: /en/team/
 **Students**
 
 - Ian Costa \- [http://lattes.cnpq.br/9701753965733142](http://lattes.cnpq.br/9701753965733142)
+- Leticia Vieira Silva - [http://lattes.cnpq.br/5252512030785667](http://lattes.cnpq.br/5252512030785667)
+- Maria Luiza de Lima Guedes - [http://lattes.cnpq.br/0951987064774069](http://lattes.cnpq.br/0951987064774069)
 - Ricardo Guimarães \- [http://lattes.cnpq.br/3849375002807332](http://lattes.cnpq.br/3849375002807332)
