@@ -46,6 +46,11 @@ a:hover {
 /* Header */
 #header_wrap {
   background: var(--primary-color);
+  background-image: url('/assets/images/header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0;
 }
 
 #project_tagline {
@@ -140,29 +145,14 @@ hr {
   background-color: white;
 }
 
-/* Responsive Header */
-@media screen and (min-width: 768px) {
-  #header_wrap .inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+#header_wrap .inner {
+  text-align: center;
+}
 
-  .logo {
-    flex: 1;
-    margin-right: 20px;
-  }
+#logo {
+  max-width: 300px;
+}
 
-  .tagline {
-    flex: 2;
-  }
-
-  #logo {
-    margin: 20px 0;
-    max-width: 400px;
-  }
-
-  #project_tagline {
-    text-align: left;
-  }
+#project_tagline {
+  margin-top: 10px;
 }
